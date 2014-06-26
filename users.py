@@ -3,9 +3,9 @@ from __future__ import print_function
 from xmlrpclib import ServerProxy
 
 SERVER = 'http://localhost:8069'
-DATABASE = 'demo'
+DATABASE = 'omega'
 USERNAME = 'admin'
-PASSWORD = 'admin'
+PASSWORD = 'omega'
 
 server = ServerProxy('http://localhost:8069/xmlrpc/common')
 user_id = server.login(DATABASE, USERNAME, PASSWORD)
