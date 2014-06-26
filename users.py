@@ -22,4 +22,4 @@ users = server.execute(
 )
 
 for user in users:
-    print(user['id'], user['name'])
+    print(user['id'], user['name'], user['email'])
